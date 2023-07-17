@@ -1,0 +1,131 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Red Hat Display", sans-serif ;
+    background-color:hsl(225, 100%, 94%) ;
+    text-align: center;
+    font-size: 16px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: #fff;
+    margin: auto;
+     padding-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 90px;
+    
+    width: 400px;
+    height: 70vh;
+}
+
+.container .price{
+    margin: 15px auto;
+    padding: 10px;
+    background-color: hsl(225, 100%, 98%);
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .price article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container img.hero{
+    border-radius: 10px 5px 0 0 ;
+}
+
+
+
+
+.container .price article img{
+    padding-right: 10px;
+}
+
+.container .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container h1{
+    font-size: 20px;
+    margin-top: 18px;
+}
+.container p{
+    margin-top: 18px;
+    
+}
+
+
+
+
+
+button{
+        font-family: "Red Hat Display", sans-serif;
+}
+.btn{
+    border: none;
+    padding: 4px 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn-1{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+.btn-2{
+    background-color: hsl(245, 75%, 52%);
+    
+    color: white;
+    padding: 10px;
+}
+.btn-3{
+    background-color: transparent;
+    color: hsl(224, 23%, 55%);;
+    
+}
+.btn-3:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+img{
+    max-width:100%;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+
+}
+h1{
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+
+
+
+
+
+
+
